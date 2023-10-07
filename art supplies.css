@@ -1,0 +1,19 @@
+body{
+    background-size: cover;
+}
+h1{
+    font-weight: 20px;
+}
+canvas{
+    border-color: white;
+    border-width: 5px;
+    border-radius: 8px;
+
+animation-name:example;
+animation-duration:4s;
+animation-iteration-count: infinite;
+}
+@keyframes example {
+from {box-shadow: 1px 1px 38px rgb(165, 26, 204);}
+to{box-shadow:1px 1px 3px rgb(205, 137, 209);}
+}
